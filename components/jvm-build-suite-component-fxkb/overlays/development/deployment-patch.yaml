@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-fxkb
+  namespace: jvm-build-hgir-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:daba95aa26ae6703499bec1cb605265d8f8bf15f159e5f7a7b3087c4bbc13d78
+        name: container-image
+        resources: {}
+status: {}
