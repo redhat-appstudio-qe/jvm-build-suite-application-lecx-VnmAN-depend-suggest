@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-fxkb
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images:c3020679432b440bbba22f6aa7a9c342
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:daba95aa26ae6703499bec1cb605265d8f8bf15f159e5f7a7b3087c4bbc13d78
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-fxkb
     app.kubernetes.io/part-of: jvm-build-suite-application-lecx
-  name: jvm-build-suite-componenttoeg
+  name: jvm-build-suite-component11mi
   namespace: jvm-build-hgir-tenant
 spec:
   port:
